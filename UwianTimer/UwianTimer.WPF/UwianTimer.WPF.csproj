@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A4B457CC-864D-46DC-8256-BE5DC7AB258F}</ProjectGuid>
+    <ProjectGuid>{092FD8D2-5868-405B-B182-802B28AB8E04}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>UwianTimer.WPF</RootNamespace>
     <AssemblyName>UwianTimer.WPF</AssemblyName>

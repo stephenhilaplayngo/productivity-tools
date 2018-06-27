@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UwianTimer.WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="120" Width="600">
     <Grid>
-        
+        <StackPanel FlowDirection="LeftToRight" Orientation="Horizontal" Margin="5 5 5 5" VerticalAlignment="Center">
+            <TextBox Style="{StaticResource TimerTextBox}"></TextBox>
+            <Label>:</Label>
+            <TextBox Style="{StaticResource TimerTextBox}"></TextBox>
+            <TextBox Style="{StaticResource TimerTextBox}"></TextBox>
+        </StackPanel>
     </Grid>
 </Window>
